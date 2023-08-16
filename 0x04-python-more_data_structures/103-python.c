@@ -24,22 +24,21 @@ void print_python_bytes(PyObject *p)
 	string = ((PyBytesObject *)p)->ob_sval;
 
 	printf(" size: %ld\n", size);
-	printf(" trying string: %s\n", string;
-
+	printf(" trying string: %s\n", string);
+	
 	if (size >= 10)
-	         limit = 10;
+		limit = 10;
 	else
-	         limit = size + 1;
+		limit = size + 1;
 
 	printf(" first %ld bytes:", limits);
 
 	for (i = 0; i < limit; i++)
-	     if (string[i] >= 0)
-	             printf(" %02x", string[i]);
-             else
-	             printf(" %02x", 256 + string[i]);
-
-       printf("\n");
+		if (string[i] >= 0)
+			printf(" %02x", string[i]);
+		else
+			printf(" %02x", 256 + string[i]);
+	printf("\n");
 }
 
 /**
@@ -68,3 +67,5 @@ void print_python_list(PyObject *p)
 		printf("Element %ld: %s\n", i, ((obj)->ob_type)->tp_name);
 		if (PyBytes_Check(obj))
 			print_python_bytes(obj);
+	}
+}
