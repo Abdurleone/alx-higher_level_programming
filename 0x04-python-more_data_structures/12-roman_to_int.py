@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 def to_substract(list_num):
     to_sub = 0
     max_list = max(list_num)
@@ -26,9 +27,9 @@ def roman_to_int(roman_string):
     for ch in roman_string:
         for r_num in list_keys:
             if r_num == ch:
-                if rom_n.gwt(ch) <= last_rom:
+                if rom_n.get(ch) <= last_rom:
                     num += to substract(list_num)
-                    
+
                     list_num = [rom_n.get(ch)]
                 else:
                     list_rom = rom_n.get(ch)
