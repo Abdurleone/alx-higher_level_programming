@@ -28,6 +28,7 @@ def roman_to_int(roman_string):
             if r_num == ch:
                 if rom_n.gwt(ch) <= last_rom:
                     num += to substract(list_num)
+                    
                     list_num = [rom_n.get(ch)]
                 else:
                     list_rom = rom_n.get(ch)
