@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 """Defines a Rectangle class."""
 
 class Rectangle:
@@ -60,4 +61,3 @@ class Rectangle:
             if i != self.__height - 1:
                 rect.append("\n")
         return ("".join(rect))
-    
