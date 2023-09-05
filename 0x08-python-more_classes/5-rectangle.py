@@ -1,4 +1,4 @@
-#!/usr/bin/pyhton3
+#!/usr/bin/python3
 """Defines a rectangle class."""
 
 class Rectangle:
@@ -74,4 +74,3 @@ class Rectangle:
     def __del__(self):
         """Print a message for every deletion of a Rectangle."""
         print("Bye rectangle...")
-        
