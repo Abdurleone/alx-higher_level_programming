@@ -19,11 +19,11 @@ if __name__ == "__main__":
     )
 
     my_session_maker = sessionmaker(bind=engine)
-    my_session = my_session_maker()i
+    my_session = my_session_maker()
 
     for state in my_session.query(State).order_by(State.id):
         print("{}: {}".format(state.id, state.name))
         for city in state.cities:
-            print("     {}: {}".format(city.id, citu.name))
+            print("     {}: {}".format(city.id, city.name))
 
     my_session.close()
