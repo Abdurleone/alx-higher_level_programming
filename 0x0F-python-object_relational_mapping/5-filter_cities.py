@@ -21,18 +21,19 @@ if __name__ == '__main__':
 
     """Execute an sql query"""
     my_cursor.execute(
-            """SELECT " FROM cities
+            """SELECT * FROM cities
             INNER JOIN states
             ON cities.state_id = states.id
-            ORDER BY cities.id""")
+            ORDER BY cities.id"""
+        )
 
     """Fetch results"""
     # my_data = my_cursor.fetchall()
 
     """print results"""
     print(", ".join([city[2]
-        for city in my_cursor.fetchall()
-        if city[4] == argv[4]]))
+                     for city in my_cursor.fetchall()
+                     if city[4] == argv[4]]))
 
     """Close cursor and connection"""
     my_cursor.close()

@@ -23,7 +23,7 @@ if __name__ == '__main__':
             states.name LIKE BINARY 'N%' ORDER BY states.id ASC""")
 
     """Fetch results"""
-    my_data = my.cursor.fetchall()
+    my_data = my_cursor.fetchall()
 
     """print results"""
     for data in my_data:
