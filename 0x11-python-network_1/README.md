@@ -31,20 +31,20 @@ At the end of this project, I was able to solve these questions:
 
 | Filename |
 | ------ |
-| [0-hbtn_status.py](https://github.com/edward0rtiz/holbertonschool-higher_level_programming/blob/master/0x11-python-network_1/0-hbtn_status.py)|
-| [1-hbtn_header.py](https://github.com/edward0rtiz/holbertonschool-higher_level_programming/blob/master/0x11-python-network_1/1-hbtn_header.py)|
-| [2-post_email.py](https://github.com/edward0rtiz/holbertonschool-higher_level_programming/blob/master/0x11-python-network_1/2-post_email.py)|
-| [3-error_code.py](https://github.com/edward0rtiz/holbertonschool-higher_level_programming/blob/master/0x11-python-network_1/3-error_code.py)|
-| [4-hbtn_status.py](hhttps://github.com/edward0rtiz/holbertonschool-higher_level_programming/blob/master/0x11-python-network_1/4-hbtn_status.py)|
-| [5-hbtn_header.py](https://github.com/edward0rtiz/holbertonschool-higher_level_programming/blob/master/0x11-python-network_1/5-hbtn_header.py)|
-| [6-post_email.py](https://github.com/edward0rtiz/holbertonschool-higher_level_programming/blob/master/0x11-python-network_1/6-post_email.py)|
-| [7-error_code.py](https://github.com/edward0rtiz/holbertonschool-higher_level_programming/blob/master/0x11-python-network_1/7-error_code.py)|
-| [8-json_api.py](https://github.com/edward0rtiz/holbertonschool-higher_level_programming/blob/master/0x11-python-network_1/8-json_api.py)|
-| [9-starwars.py](https://github.com/edward0rtiz/holbertonschool-higher_level_programming/blob/master/0x11-python-network_1/9-starwars.py)|
-| [10-my_github.py](https://github.com/edward0rtiz/holbertonschool-higher_level_programming/blob/master/0x11-python-network_1/10-my_github.py)|
-| [100-github_commits.py](https://github.com/edward0rtiz/holbertonschool-higher_level_programming/blob/master/0x11-python-network_1/100-github_commits.py)|
-| [101-starwars.py](https://github.com/edward0rtiz/holbertonschool-higher_level_programming/blob/master/0x11-python-network_1/101-starwars.py)|
-| [102-starwars.py](https://github.com/edward0rtiz/holbertonschool-higher_level_programming/blob/master/0x11-python-network_1/102-starwars.py)|
+| [0-hbtn_status.py](https://github.com/abdurleone/alx-higher_level_programming/blob/master/0x11-python-network_1/0-hbtn_status.py)|
+| [1-hbtn_header.py](https://github.com/abdurleone/alx-higher_level_programming/blob/master/0x11-python-network_1/1-hbtn_header.py)|
+| [2-post_email.py](https://github.com/abdurleone/alx-higher_level_programming/blob/master/0x11-python-network_1/2-post_email.py)|
+| [3-error_code.py](https://github.com/abdurleone/alx-higher_level_programming/blob/master/0x11-python-network_1/3-error_code.py)|
+| [4-hbtn_status.py](hhttps://github.com/abdurleone/alx-higher_level_programming/blob/master/0x11-python-network_1/4-hbtn_status.py)|
+| [5-hbtn_header.py](https://github.com/abdurleone/alx-higher_level_programming/blob/master/0x11-python-network_1/5-hbtn_header.py)|
+| [6-post_email.py](https://github.com/abdurleone/alx-higher_level_programming/blob/master/0x11-python-network_1/6-post_email.py)|
+| [7-error_code.py](https://github.com/abdurleone/alx-higher_level_programming/blob/master/0x11-python-network_1/7-error_code.py)|
+| [8-json_api.py](https://github.com/abdurleone/alx-higher_level_programming/blob/master/0x11-python-network_1/8-json_api.py)|
+| [9-starwars.py](https://github.com/abdurleone/alx-higher_level_programming/blob/master/0x11-python-network_1/9-starwars.py)|
+| [10-my_github.py](https://github.com/abdurleone/alx-higher_level_programming/blob/master/0x11-python-network_1/10-my_github.py)|
+| [100-github_commits.py](https://github.com/abdurleone/alx-higher_level_programming/blob/master/0x11-python-network_1/100-github_commits.py)|
+| [101-starwars.py](https://github.com/abdurleone/alx-higher_level_programming/blob/master/0x11-python-network_1/101-starwars.py)|
+| [102-starwars.py](https://github.com/abdurleone/alx-higher_level_programming/blob/master/0x11-python-network_1/102-starwars.py)|
 | 103-search_twitter.py - Pending task|
 
 
@@ -56,7 +56,7 @@ At the end of this project, I was able to solve these questions:
 
 ### Try It On Your Machine :computer:	
 ```bash
-git clone https://github.com/edward0rtiz/holbertonschool-higher_level_programming.git
+git clone https://github.com/abdurleone/alx-higher_level_programming.git
 cd 0x10-python-network_1
 ./FILENAME.py
 ```
