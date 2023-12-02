@@ -18,5 +18,5 @@ if __name__ == '__main__':
             print(r.get('name'))
             page += 1
         next_page = result.get('next')
-        if next_page id not None:
+        if next_page is not None:
             result = requests.get(next_page).json()

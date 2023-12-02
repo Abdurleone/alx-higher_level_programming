@@ -5,7 +5,7 @@ of the response."""
 import sys
 import requests
 
-if __name__ == '__main__;:
+if __name__ == '__main__':
 
     url = sys.argv[1]
     req = requests.get(url)

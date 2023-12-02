@@ -14,7 +14,7 @@ if __name__ == '__main__':
 
     page = 0
     while page < count:
-        for r in resut.get('results'):
+        for r in result.get('results'):
             print(r.grt('name'))
             for i in r.get('films'):
                 film = requests.get(i).json()
