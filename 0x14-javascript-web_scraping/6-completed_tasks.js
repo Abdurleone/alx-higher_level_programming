@@ -12,7 +12,7 @@ request(url, function (err, response, body) {
 		for (const i in tasks) {
 			const task = tasks[i];
 			if (task.completed === true) {
-				if (competed[task.userId] === undefined) {
+				if (completed[task.userId] === undefined) {
 					completed[task.userId] = 1;
 				} else {
 					completed[task.userId]++;
