@@ -10,7 +10,7 @@ request(url, function (err, response, body) {
 		const completed = {};
 		const tasks = JSON.parse(body);
 		for (const i in tasks) {
-			const task in tasks[i];
+			const task = tasks[i];
 			if (task.completed === true) {
 				if (competed[task.userId] === undefined) {
 					completed[task.userId] = 1;
